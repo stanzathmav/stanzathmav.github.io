@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<!--<link rel="stylesheet" href="untitled.css" />-->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Изучение JavaScript</title>
+	<script src="untitled.js"> </script>
+</head>
+
+<body>
+<p id="text">ЦВЕТ ТЕКСТА ИЗМЕНЧИВ</p>
+<button onclick="changeColor('blue');">
+	СИНИЙ
+</button>
+<button onclick="changeColor('red');">
+	КРАСНЫЙ
+</button>
+
+<script>
+	function changeColor (newColor) {
+		var element = document.getElementById("text");
+		element.style.color = newColor;
+	}
+</script>
+<p><a href="./index.html">&lt;&lt;go back</a></p>
+</body>
+</html>
