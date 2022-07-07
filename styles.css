@@ -47,7 +47,7 @@ html, body {
 }
 article {
 	width: 100%;
-	background-color: #F6F6F6;
+	background-color: #E3E3E4;
 }
 p { 
 	margin: 0;
@@ -64,7 +64,7 @@ p {
 h2 {
 	padding-top: 70px;
 	padding-left: 2%;
-    background-color: #CECECE;
+    background-color: #E3E3E4;
     margin: 0;
     color: #10131A;
 }
@@ -84,7 +84,7 @@ h2 {
 .works {
 	padding-left: 2%;
 	height: 1070px;
-	background-color: #CECECE;
+	background-color: #E3E3E4;
 	padding-top: 20px;
 }
 .works > button {
